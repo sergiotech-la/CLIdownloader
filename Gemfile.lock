@@ -1,0 +1,58 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    csv (3.2.8)
+    date (3.3.4)
+    fileutils (1.7.2)
+    io-console (0.6.0)
+    json (2.7.1)
+    language_server-protocol (3.17.0.3)
+    open-uri (0.4.0)
+      stringio
+      time
+      uri
+    parallel (1.23.0)
+    parser (3.2.2.4)
+      ast (~> 2.4.1)
+      racc
+    racc (1.7.3)
+    rainbow (3.1.1)
+    readline (0.0.3)
+      reline
+    regexp_parser (2.8.3)
+    reline (0.4.1)
+      io-console (~> 0.5)
+    rexml (3.2.6)
+    rubocop (1.58.0)
+      json (~> 2.3)
+      language_server-protocol (>= 3.17.0)
+      parallel (~> 1.10)
+      parser (>= 3.2.2.4)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml (>= 3.2.5, < 4.0)
+      rubocop-ast (>= 1.30.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 3.0)
+    rubocop-ast (1.30.0)
+      parser (>= 3.2.1.0)
+    ruby-progressbar (1.13.0)
+    stringio (3.1.0)
+    time (0.3.0)
+      date
+    unicode-display_width (2.5.0)
+    uri (0.13.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  csv
+  fileutils
+  open-uri
+  readline
+  rubocop
+
+BUNDLED WITH
+   2.4.22
